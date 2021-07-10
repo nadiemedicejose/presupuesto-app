@@ -1,5 +1,10 @@
 <!-- Llamar al componente hijo Cabecero -->
-<app-cabecero></app-cabecero>
+<app-cabecero
+	[presupuestoTotal]="getPresupuestoTotal()"
+	[ingresoTotal]="getIngresoTotal()"
+	[egresoTotal]="getEgresoTotal()"
+	[porcentajeTotal]="getPorcentajeTotal()"
+></app-cabecero>
 
 <!-- Llamar al componente hijo Formulario -->
 <app-formulario></app-formulario>
