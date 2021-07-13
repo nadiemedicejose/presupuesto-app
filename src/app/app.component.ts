@@ -23,7 +23,7 @@ export class AppComponent {
   ) {
     // Inicializar variables
     this.ingresos = ingresoServicio.ingresos
-    this.egresos = egresoServicio.egreso
+    this.egresos = egresoServicio.egresos
   }
 
   // Definir método para sumar Ingresos

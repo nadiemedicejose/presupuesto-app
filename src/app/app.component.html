@@ -14,5 +14,7 @@
 	<app-ingreso></app-ingreso>
 
 	<!-- Llamar al componente hijo Egreso -->
-	<app-egreso></app-egreso>
+	<app-egreso
+		[ingresoTotal]="getIngresoTotal()"
+	></app-egreso>
 </div>
