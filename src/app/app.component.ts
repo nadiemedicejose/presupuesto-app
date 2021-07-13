@@ -22,7 +22,7 @@ export class AppComponent {
     private egresoServicio: EgresoServicio
   ) {
     // Inicializar variables
-    this.ingresos = ingresoServicio.ingreso
+    this.ingresos = ingresoServicio.ingresos
     this.egresos = egresoServicio.egreso
   }
 
